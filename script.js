@@ -39,7 +39,7 @@ const highlightNav = () => {
     if (navLink) {
       if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
         allNavLinks.forEach(l => l.style.color = '');
-        navLink.style.color = '#c9a84c';
+        navLink.style.color = '#2563eb';
       }
     }
   });
